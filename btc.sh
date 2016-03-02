@@ -1,7 +1,7 @@
 #!/bin/bash
 # Credit to David Walsh - <https://davidwalsh.name/bitcoin>
 
-echo "Coindesk BTC price USD: "
+echo "Coindesk Bitcoin Price Index: "
 
 while [ 1 ] # while always
 do
