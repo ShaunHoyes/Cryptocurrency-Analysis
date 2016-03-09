@@ -10,6 +10,11 @@ After saving the script file (btc.sh), you will want to make sure that the file 
 $ chmod +x the_file_name
 ```
 
+Now everything should be set. If you ever want to check the price of Bitcoin from the terminal just type the following:
+```
+$ ./btc.sh
+```
+
 # Crytpocurrency Sheet Analysis
 This is a script designed for Google Sheets. By using various functions (and having your wallet address handy), you can monitor balances, conversions, and withdrawals from the comfort of your spreadsheet. As of right now this script supports Bitcoin and Dash. Here are a list of the functions.
 
