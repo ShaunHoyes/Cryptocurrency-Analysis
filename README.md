@@ -11,8 +11,25 @@ $ chmod +x the_file_name
 ```
 
 # Crytpocurrency Sheet Analysis
-This is a script designed for Google Sheets. By using various functions (and having your wallet address handy), you can monitor balances, conversions, and withdrawals from the comfort of your spreadsheet. As of right now this script supports Bitcoin and Dash. Here are a list of the functions:
+This is a script designed for Google Sheets. By using various functions (and having your wallet address handy), you can monitor balances, conversions, and withdrawals from the comfort of your spreadsheet. As of right now this script supports Bitcoin and Dash. Here are a list of the functions.
 
+Current balance of a bitcoin address:
 ```
 =getBalance()
+```
+Total amount ever recieved by a bitcon address:
+```
+=getReceived()
+```
+Total amount ever sent from a bitcoin address:
+```
+=getTotalSent
+```
+Balance of a Dash address:
+```
+=getDashbalance
+```
+Bitcoin amount converted into U.S. dollars:
+```
+=getUSDconversion
 ```
