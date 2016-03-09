@@ -1,4 +1,4 @@
-# Crypocurrency Analysis
+# README.md
 These are all pieces of code, scripts that allow you to monitor and track your cryptocurrency-related activity
 
 # Coindesk Price Ticker
