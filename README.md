@@ -10,7 +10,7 @@ After saving the script file (btc.sh), you will want to make sure that the file 
 $ chmod +x the_file_name
 ```
 
-Now everything should be set. If you ever want to check the price of Bitcoin from the terminal just type the following:
+Now everything should be set. If you ever want to check the price of Bitcoin from the terminal, just type the following:
 ```
 $ ./btc.sh
 ```
