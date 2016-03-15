@@ -28,17 +28,17 @@ Total amount ever recieved by a bitcon address:
 ```
 Total amount ever sent from a bitcoin address:
 ```
-=getTotalSent
+=getTotalSent()
 ```
 Balance of a Dash address:
 ```
-=getDashbalance
+=getDashbalance()
 ```
 Bitcoin amount converted into U.S. dollars:
 ```
-=getUSDconversion
+=getUSDconversion()
 ```
 Current balance of a given ether address:
 ```
-=getEthBalance
+=getEthBalance()
 ```
