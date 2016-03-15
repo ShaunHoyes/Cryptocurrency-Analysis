@@ -44,3 +44,13 @@ function USDconversion(bitcoinAmount) {
   return response * bitcoinAmount;
 }
 
+/* Returns Ether balance from a given address */
+/* the balance will be in Ether */
+
+function getEthBalance(ethAddress) {
+  var response = UrlFetchApp.fetch('http://api.etherscan.io/api?module=account&action=balance&address=' + ethAddress);
+  var json = response.getContentText();
+  var data = JSON.parse(json);
+  return data.result * Math.pow(10,-18);
+} 
+}
