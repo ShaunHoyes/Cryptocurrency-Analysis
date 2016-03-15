@@ -32,7 +32,7 @@ Total amount ever sent from a bitcoin address:
 ```
 Balance of a Dash address:
 ```
-=getDashbalance()
+=getDashBalance()
 ```
 Bitcoin amount converted into U.S. dollars:
 ```
