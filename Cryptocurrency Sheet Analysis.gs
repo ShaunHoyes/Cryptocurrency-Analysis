@@ -1,3 +1,5 @@
+/* Just copy and paste this entie thing into your Google Sheets script editor, and you're good to go. */
+
 /* Returns the most recent balance of a bitcoin address */ 
 
 function getBalance(btcAddress) {
