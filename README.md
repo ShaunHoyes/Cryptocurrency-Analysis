@@ -16,7 +16,7 @@ $ ./btc.sh
 ```
 
 # Crytpocurrency Sheet Analysis
-This is a script designed for Google Sheets. By using various functions (and having your wallet address handy), you can monitor balances, conversions, and withdrawals from the comfort of your spreadsheet. As of right now these scripts retrieve Bitcoin, Ether, and Dash balances. Here are a list of the functions.
+These scripts are designed to work within Google Sheets. By using various functions (and having your wallet address handy), you can monitor balances, conversions, and withdrawals all from the spreadsheet. As of right now these scripts retrieve Bitcoin, Ether, and Dash balances.
 
 Current balance of a bitcoin address:
 ```
