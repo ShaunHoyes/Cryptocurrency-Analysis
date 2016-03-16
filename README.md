@@ -1,5 +1,5 @@
 # README.md
-These are all pieces of code, scripts that allow you to monitor and track your cryptocurrency-related activity
+These are all scripts that allow you to monitor and track your cryptocurrency-related activity. 
 
 # Coindesk Price Ticker
 This is a script that allows you to retrieve the real-time price of bitcoin in your terminal
