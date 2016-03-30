@@ -9,4 +9,4 @@ def getBTC():
     except:
         return 'Unknown'
  
-print(getBTC())
+print '$' + (getBTC())
