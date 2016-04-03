@@ -1,12 +1,8 @@
-import urllib
- 
-def getBTC():
-    try:
-        url  = urllib.urlopen('http://api.bitcoincharts.com/v1/weighted_prices.json').read()
-        usd  = url.split('"}, ')[0]
-        rate = usd.split('"24h": "')[1]
-        return rate
-    except:
-        return 'Unknown'
- 
-print '$' + (getBTC())
+import time, json, requests
+
+
+def BitcoinAverage():
+    BitcoinAverageTick = requests.get('https://api.bitcoinaverage.com/ticker/USD/')
+    return BitcoinAverageTick.json()['last']
+
+print str(BitcoinAverage())
