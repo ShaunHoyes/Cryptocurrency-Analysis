@@ -26,12 +26,17 @@ def xcp():
     xcpPrice = requests.get('https://www.cryptonator.com/api/ticker/xcp-usd')
     return xcpPrice.json()['ticker']['price']
 
+def fct():
+    fctPrice = requests.get('https://www.cryptonator.com/api/ticker/fct-usd')
+    return fctPrice.json()['ticker']['price']
+
 coins = PrettyTable(['Coin', 'Price'])
 
 coins.add_row(['Bitcoin BTC:', "$" + btc() + "\n"])
 coins.add_row(['Ethereum ETH:', "$" + eth() + "\n"])
 coins.add_row(['Litecoin LTC:', "$" + ltc() + "\n"])
 coins.add_row(['Dash DASH:', "$" + dash() + "\n"])
+coins.add_row(['Factom FCT:', "$" + fct() + "\n"])
 coins.add_row(['Counterparty XCP:', "$" + xcp() + "\n"])
 coins.add_row(['Storjcoin SJCX:', "$" + sjcx()])
 
