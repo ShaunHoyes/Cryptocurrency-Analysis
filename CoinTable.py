@@ -28,8 +28,6 @@ def xcp():
 
 coins = PrettyTable(['Coin', 'Price'])
 
-
-
 coins.add_row(['Bitcoin BTC:', "$" + btc() + "\n"])
 coins.add_row(['Ethereum ETH:', "$" + eth() + "\n"])
 coins.add_row(['Litecoin LTC:', "$" + ltc() + "\n"])
@@ -38,4 +36,3 @@ coins.add_row(['Counterparty XCP:', "$" + xcp() + "\n"])
 coins.add_row(['Storjcoin SJCX:', "$" + sjcx()])
 
 print coins;
-
