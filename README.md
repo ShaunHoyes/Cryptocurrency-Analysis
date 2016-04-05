@@ -42,3 +42,25 @@ Current balance of a given ether address:
 ```
 =getEthBalance()
 ```
+
+# Coin Table
+With Coin Table, you should get an output that looks like this:
+```
++-------------------+---------------+
+|        Coin       |     Price     |
++-------------------+---------------+
+|    Bitcoin BTC:   | $421.66598490 |
+|                   |               |
+|   Ethereum ETH:   |  $10.78536699 |
+|                   |               |
+|   Litecoin LTC:   |  $3.25221028  |
+|                   |               |
+|     Dash DASH:    |  $7.19095736  |
+|                   |               |
+|    Factom FCT:    |  $1.63825247  |
+|                   |               |
+| Counterparty XCP: |  $2.19433714  |
+|                   |               |
+|  Storjcoin SJCX:  |  $0.08874382  |
++-------------------+---------------+
+```
