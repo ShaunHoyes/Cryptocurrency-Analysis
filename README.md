@@ -46,21 +46,20 @@ Current balance of a given ether address:
 # Coin Table
 With Coin Table, you should get an output that looks like this:
 ```
-+-------------------+---------------+
-|        Coin       |     Price     |
-+-------------------+---------------+
-|    Bitcoin BTC:   | $421.66598490 |
-|                   |               |
-|   Ethereum ETH:   |  $10.78536699 |
-|                   |               |
-|   Litecoin LTC:   |  $3.25221028  |
-|                   |               |
-|     Dash DASH:    |  $7.19095736  |
-|                   |               |
-|    Factom FCT:    |  $1.63825247  |
-|                   |               |
-| Counterparty XCP: |  $2.19433714  |
-|                   |               |
-|  Storjcoin SJCX:  |  $0.08874382  |
-+-------------------+---------------+
++-------------------+---------+
+|        Coin       |  Price  |
++-------------------+---------+
+|    Bitcoin BTC:   | $450.47 |
+|                   |         |
+|   Ethereum ETH:   |  $10.12 |
+|                   |         |
+|   Litecoin LTC:   |  $3.81  |
+|                   |         |
+|     Dash DASH:    |  $6.77  |
+|                   |         |
+| Counterparty XCP: |   $1.5  |
+|                   |         |
+|  Storjcoin SJCX:  |  $0.06  |
+|                   |         |
++-------------------+---------+
 ```
