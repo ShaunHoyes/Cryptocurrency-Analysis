@@ -66,3 +66,6 @@ With Coin Table, you should get an output that looks like this:
 |                   |         |
 +-------------------+---------+
 ```
+
+# Coincap.py
+Crytpocurrency market metrics using the coincap.io API 
