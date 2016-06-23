@@ -1,6 +1,9 @@
 # README.md
 These are all scripts that allow you to monitor and track your cryptocurrency-related activity. 
 
+# BTCrate
+A simple command line script that spits out the price of bitcoin in USD using the BitcoinAverage.com API
+
 # Coindesk Price Ticker
 This is a script that allows you to retrieve the real-time price of bitcoin in your terminal
 
